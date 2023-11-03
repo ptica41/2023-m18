@@ -480,7 +480,7 @@
 
 .consultation {
     margin-top: 124px;
-    margin-bottom: 500px;
+    margin-bottom: 300px;
     background-image: url('../images/background-consultation.jpg');
     background-repeat: no-repeat;
     min-height: 645px;
@@ -602,4 +602,15 @@
     font-size: 18px;
     line-height: 143.22%; /* 25.78px */
     text-align: left;
+}
+
+.interier {
+    background-image: url('../images/interier.jpg');
+    background-size: cover;
+    height: 864px;
+}
+
+.interier-container {
+    display: flex;
+    justify-content: space-between;
 }
