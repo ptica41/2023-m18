@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0;  
     padding: 0;
     font-family: Nunito Sans, Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -76,9 +76,9 @@
     box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
     color: #ffffff;
     font-size: 11px;
-    font-family: Nunito Sans;
+    font-family: Nunito Sans;  /*DRY*/
     font-style: italic;
-    font-weight: 400;
+    font-weight: 400;  /*DRY*/
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -105,7 +105,7 @@
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    line-height: 132.825%; /* 53.13px */
+    line-height: 132.825%; /* 53.13px */  /* YAGNI */
     text-transform: uppercase;
 }
 
@@ -121,7 +121,7 @@ h1 span {
     flex-shrink: 0;
     color: #FFF;
     font-size: 22px;
-    line-height: 163.68%; /* 36.01px */
+    line-height: 163.68%; /* 36.01px */  /* YAGNI */
 }
 
 .title-buttons {
@@ -169,7 +169,7 @@ h1 span {
     font-size: 27px;
     font-style: normal;
     font-weight: 400;
-    line-height: 138.6%; /* 37.422px */
+    line-height: 138.6%; /* 37.422px */  /* YAGNI */
     letter-spacing: -1.89px;
     text-transform: uppercase;
     margin-top: 177px;
@@ -182,7 +182,7 @@ h1 span {
     flex-shrink: 0;
     color: #FFF;
     font-size: 14px;
-    line-height: 190.96%; /* 26.734px */
+    line-height: 190.96%; /* 26.734px */  /* YAGNI */
     margin: 0;
 }
 
@@ -202,7 +202,7 @@ h1 span {
     color: #E3B873;
     font-family: Yeseva One;
     font-size: 18px;
-    line-height: 138.6%; /* 24.948px */
+    line-height: 138.6%; /* 24.948px */  /* YAGNI */
     text-transform: uppercase;
     height: 31px;
     margin: 0;
@@ -212,7 +212,7 @@ h1 span {
     padding-bottom: 9px;
     color: #FFF;
     font-size: 13px;
-    line-height: 163.68%; /* 21.278px */
+    line-height: 163.68%; /* 21.278px */  /* YAGNI */
     margin: 0;
 }
 
@@ -228,7 +228,7 @@ h1 span {
     color: rgba(255, 255, 255, 0.30);
     font-family: Yeseva One;
     font-size: 14px;
-    line-height: 138.6%; /* 19.404px */
+    line-height: 138.6%; /* 19.404px */  /* YAGNI */
     text-transform: uppercase;
     padding-top: 107px;
 }
@@ -278,7 +278,7 @@ h1 span {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 138.6%; /* 27.72px */
+    line-height: 138.6%; /* 27.72px */  /* YAGNI */  
     text-transform: uppercase;
     margin-top: -278px;
     margin-bottom: 13px;
@@ -302,7 +302,7 @@ h1 span {
     color: #363636;
     text-align: center;
     font-size: 18px;
-    line-height: 204.6%; /* 36.828px */
+    line-height: 204.6%; /* 36.828px */  /* YAGNI */
 }
 
 .white-form {
@@ -321,7 +321,7 @@ h1 span {
 .input-title {
     color: rgba(54, 54, 54, 0.50);
     font-size: 13px;
-    line-height: 163.68%; /* 21.278px */
+    line-height: 163.68%; /* 21.278px */  /* YAGNI */
     margin: 0;
 }
 
@@ -330,7 +330,7 @@ h1 span {
     border: 0;
     border-bottom: 0.5px solid #afafaf;
     font-size: 14px;
-    line-height: 163.68%; /* 22.915px */
+    line-height: 163.68%; /* 22.915px */  /* YAGNI */
     margin: 0;
     margin-top: -2px;
     margin-bottom: -10px;
@@ -339,7 +339,7 @@ h1 span {
 .input-description::placeholder {
     color: black;
     font-size: 14px;
-    line-height: 163.68%; /* 22.915px */
+    line-height: 163.68%; /* 22.915px */  /* YAGNI */
 }
 
 .input-description:focus {
@@ -363,7 +363,7 @@ h1 span {
     margin-left: 8.6px;
     color: #181818;
     font-size: 14px;
-    line-height: 163.68%; /* 22.915px */
+    line-height: 163.68%; /* 22.915px */  /* YAGNI */
 }
 
 .white-checkbox {
@@ -414,7 +414,7 @@ background-size: 120% 120%;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 138.6%; /* 27.72px */
+    line-height: 138.6%; /* 27.72px */  /* YAGNI */
     text-transform: uppercase;
 }
 
@@ -453,7 +453,7 @@ background-size: 120% 120%;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 138.6%; /* 24.948px */
+    line-height: 138.6%; /* 24.948px */  /* YAGNI */
 }
 
 .repair-category-description-ul {
@@ -461,7 +461,7 @@ background-size: 120% 120%;
     margin-left: 52px;
     color: #959595;
     font-size: 13px;
-    line-height: 182%; /* 26.598px */
+    line-height: 182%; /* 26.598px */  /* YAGNI */
     padding: 0;
 }
 
@@ -486,7 +486,7 @@ background-size: 120% 120%;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 138.6%; /* 24.948px */
+    line-height: 138.6%; /* 24.948px */  /* YAGNI */
     text-transform: uppercase;
 }
 
@@ -541,7 +541,7 @@ background-size: 120% 120%;
     color: #FFF;
     text-align: center;
     font-size: 18px;
-    line-height: 143.22%; /* 25.78px */
+    line-height: 143.22%; /* 25.78px */  /* YAGNI */
 }
 
 .black-form div div:nth-child(1) {
@@ -561,7 +561,7 @@ background-size: 120% 120%;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: 163.68%; /* 21.278px */
+    line-height: 163.68%; /* 21.278px */  /* YAGNI */
     margin-top: 48px;
 }
 
@@ -571,14 +571,14 @@ background-size: 120% 120%;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.15);
     background-color: transparent;
     font-size: 14px;
-    line-height: 163.68%; /* 22.915px */
+    line-height: 163.68%; /* 22.915px */  /* YAGNI */
     color: #FFF;
 }
 
 .input-description-black::placeholder {
     color: #FFF;
     font-size: 14px;
-    line-height: 163.68%; /* 22.915px */
+    line-height: 163.68%; /* 22.915px */  /* YAGNI */
 }
 
 .input-description-black:focus {
@@ -606,7 +606,7 @@ background-size: 120% 120%;
     color: #E3B873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
     font-size: 18px;
-    line-height: 143.22%; /* 25.78px */
+    line-height: 143.22%; /* 25.78px */  /* YAGNI */
     text-align: left;
 }
 
@@ -632,7 +632,7 @@ background-size: 120% 120%;
     color: #E3B873;
     font-family: Yeseva One;
     font-size: 27px;
-    line-height: 138.6%; /* 37.422px */
+    line-height: 138.6%; /* 37.422px */  /* YAGNI */
     text-transform: uppercase;
 }
 
@@ -706,7 +706,7 @@ background-size: 120% 120%;
 
 .clients-description {
     margin-top: 24px;
-    line-height: 163.68%; /* 29.462px */
+    line-height: 163.68%; /* 29.462px */  /* YAGNI */
     margin-bottom: 63px;
 }
 
@@ -721,7 +721,7 @@ background-size: 120% 120%;
     align-items: center;
     font-family: Yeseva One;
     font-size: 18px;
-    line-height: 127.05%; /* 22.869px */
+    line-height: 127.05%; /* 22.869px */  /* YAGNI */
     margin-bottom: 27px;
 }
 
@@ -733,7 +733,7 @@ background-size: 120% 120%;
     width: 324.079px;
     color: #959595;
     font-size: 13px;
-    line-height: 180%; /* 23.4px */
+    line-height: 180%; /* 23.4px */  /* YAGNI */
     margin-bottom: 60px;
 }
 
@@ -755,7 +755,7 @@ background-size: 120% 120%;
     color: #FFF;
     font-family: Yeseva One;
     font-size: 17px;
-    line-height: 138.6%; /* 23.562px */
+    line-height: 138.6%; /* 23.562px */  /* YAGNI */
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -793,7 +793,7 @@ background-size: 120% 120%;
     color: #FFF;
     font-family: Yeseva One;
     font-size: 20px;
-    line-height: 138.6%; /* 27.72px */
+    line-height: 138.6%; /* 27.72px */  /* YAGNI */
     text-align: center;
     text-transform: uppercase;
 }
@@ -812,7 +812,7 @@ background-size: 120% 120%;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.15);
     background-color: transparent;
     font-size: 14px;
-    line-height: 163.68%; /* 22.915px */
+    line-height: 163.68%; /* 22.915px */  /* YAGNI */
     color: #FFF;
 }
 
@@ -822,14 +822,14 @@ background-size: 120% 120%;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.15);
     background-color: transparent;
     font-size: 14px;
-    line-height: 163.68%; /* 22.915px */
+    line-height: 163.68%; /* 22.915px */  /* YAGNI */
     color: #FFF;
 }
 
 .input-description-contacts::placeholder {
     color: #FFF;
-    font-size: 14px;
-    line-height: 163.68%; /* 22.915px */
+    font-size: 14px; 
+    line-height: 163.68%; /* 22.915px */  /* YAGNI */
 }
 
 .input-description-contacts:focus {
@@ -839,7 +839,7 @@ background-size: 120% 120%;
 .input-description-question::placeholder {
     color: #FFF;
     font-size: 14px;
-    line-height: 163.68%; /* 22.915px */
+    line-height: 163.68%; /* 22.915px */  /* YAGNI */
 }
 
 .input-description-question:focus {
@@ -860,7 +860,7 @@ background-size: 120% 120%;
     text-align: center;
     font-family: Yeseva One;
     font-size: 20px;
-    line-height: 138.6%; /* 27.72px */
+    line-height: 138.6%; /* 27.72px */  /* YAGNI */
     text-transform: uppercase;
     margin-top: 52px;
 }
@@ -982,7 +982,7 @@ background-size: 120% 120%;
         flex-shrink: 0;
         font-size: 11px;
         text-align: center;
-        line-height: 158.48%; /* 17.433px */
+        line-height: 158.48%; /* 17.433px */  /* YAGNI */
         margin-top: 22px;
         padding: 0px;
     }
@@ -1307,7 +1307,7 @@ background-size: 120% 120%;
         text-align: center;
         font-family: Yeseva One;
         font-size: 18;
-        line-height: 138.6%; /* 27.72px */
+        line-height: 138.6%; /* 27.72px */  /* YAGNI */
         text-transform: uppercase;
         margin-top: 40px;
     }
